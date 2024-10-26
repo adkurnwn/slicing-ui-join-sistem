@@ -9,10 +9,10 @@
       <img src="@/assets/images/logo/logo-join-sistem.png" alt="Join Sistem Logo">
       <!-- Navigation Links -->
       <nav class="space-x-6">
-        <a href="#" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Home</a>
-        <a href="#" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Blog</a>
-        <a href="#" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">About us</a>
-        <a href="#" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Contact us</a>
+        <a href="/" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Home</a>
+        <a href="blog" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Blog</a>
+        <a href="about" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">About us</a>
+        <a href="contact" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Contact us</a>
         <a href="privacy" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Privacy Policy</a>
       </nav>
     </div>

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import MainLayout from '@/layouts/MainLayout.vue'
 import Category from '@/components/Category.vue'
+import JoinContent from '@/components/JoinContent.vue'
 </script>
 
 <template>
@@ -61,15 +62,15 @@ import Category from '@/components/Category.vue'
             <div class="z-[3] flex pt-4 items-end">
               <div class="font-inter font-medium leading-5 text-sm">
                 <span><span class="text-x-verydarkgrey">By </span>
-                  <span class="text-x-yellow">John Doe </span>
+                  <a href="#"><span class="text-x-yellow">John Doe </span></a>
                   <span class="text-x-verydarkgrey">l May 23, 2022</span></span>
               </div>
             </div>
             <div class=" text-x-verydarkgrey text-[28px] z-[4] font-bold flex self-stretch">
-              <p>
+              <a href="#">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
-              </p>
+              </a>
             </div>
             <div class="text-x-darkgrey w-[551px] flex">
               <p>
@@ -147,9 +148,9 @@ import Category from '@/components/Category.vue'
     <!-- about us Section-->
     <div class="w-full py-24 px-16">
       <div class="h-4 flex">
-        <div class="w-1/5 "></div>
-        <div class="w-2/3 bg-x-yellow"></div>
-        <div class="w-1/3 bg-x-blue"></div>
+        <div class="w-1/6 "></div>
+        <div class="w-4/6 bg-x-yellow"></div>
+        <div class="w-2/6 bg-x-blue"></div>
       </div>
       <div class="bg-x-lavender flex justify-center pr-16 pl-16 flex-col items-start py-24">
         <div
@@ -204,5 +205,38 @@ import Category from '@/components/Category.vue'
     </div>
     <!-- about us Section end-->
     <Category />
+    <!-- special post Section-->
+    <div class="flex mt-20 mb-20 px-16">
+      <div
+        class="pt-[102px] pl-[488px] w-[804px] bg-[url('@/assets/images/misc/special.png')] flex-shrink-0 flex bg-cover bg-center">
+        <div
+          class="tracking-[0px] mr-[-278px] flex justify-center flex-grow flex-col gap-y-3 bg-white items-start p-16">
+          <div class="tracking-[3px] text-slate-800 font-inter uppercase font-semibold leading-5 text-sm">
+            Why we started
+          </div>
+          <div class="pt-2 self-stretch">
+            <div class="tracking-[-2px] leading-[56px] text-slate-800 font-sen font-bold text-4xl items-center flex">
+              <p>It started out as a simple idea and evolved into our passion</p>
+            </div>
+          </div>
+          <div class="text-zinc-500 font-inter leading-7 items-start flex self-stretch">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip.
+            </p>
+          </div>
+          <div class="flex pt-4 self-stretch items-end">
+            <button href="#" class="bg-x-blue hover:bg-x-yellow text-center text-white leading-5 font-bold text-base py-4 px-12 transition duration-150 ease-in-out">
+              Discover our story >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <JoinContent />
+
   </MainLayout>
 </template>
