@@ -140,8 +140,6 @@ import Category from '@/components/Category.vue'
               8 Figma design systems that you can download for free today.
             </div>
           </div>
-
-
         </div>
       </div>
     </div>

@@ -6,9 +6,7 @@
     <!-- Top Section -->
     <div class="container mx-auto flex justify-between items-center mb-10">
       <!-- Logo -->
-      <div class="text-2xl font-bold">
-        {Finsweet}
-      </div>
+      <img src="@/assets/images/logo/logo-join-sistem.png" alt="Join Sistem Logo">
       <!-- Navigation Links -->
       <nav class="space-x-6">
         <a href="#" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Home</a>
