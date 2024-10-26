@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Sen";
+  src: url("../fonts/sen-variable-font.ttf");
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;/*# sourceMappingURL=main.css.map */
