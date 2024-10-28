@@ -2,6 +2,7 @@
 import MainLayout from '@/layouts/MainLayout.vue'
 import Category from '@/components/Category.vue'
 import JoinContent from '@/components/JoinContent.vue'
+import AuthorContent from '@/components/AuthorContent.vue';
 </script>
 
 <template>
@@ -147,7 +148,7 @@ import JoinContent from '@/components/JoinContent.vue'
     <!-- featured Section end-->
     <!-- about us Section-->
     <div class="w-full py-24 px-16">
-      <div class="h-4 flex">
+      <div class="h-[23px] flex">
         <div class="w-1/6 "></div>
         <div class="w-4/6 bg-x-yellow"></div>
         <div class="w-2/6 bg-x-blue"></div>
@@ -235,6 +236,8 @@ import JoinContent from '@/components/JoinContent.vue'
         </div>
       </div>
     </div>
+
+    <AuthorContent />
 
     <JoinContent />
 

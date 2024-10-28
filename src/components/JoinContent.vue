@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="text-center flex flex-col gap-y-4 self-center flex-grow mb-20 w-1/3 mx-auto">
+    <div class="text-center flex flex-col gap-y-4 self-center flex-grow mb-20 w-1/3 mx-auto mt-20">
         <div
             class="tracking-[-2px] leading-[48px] text-x-verydarkgrey font-bold text-4xl items-center flex justify-center">
             <p class="text-center">Join our team to be a part of our story</p>

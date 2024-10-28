@@ -40,10 +40,10 @@ import JoinContent from '@/components/JoinContent.vue'
 
       <!-- tombol -->
       <div class="flex justify-center py-8 pl-7 gap-x-4 font-bold items-center">
-        <button href="#" class="text-x-mediumgrey hover:text-x-black text-2xl hover:text-3xl">
+        <button href="#" class="text-x-mediumgrey hover:text-x-black text-2xl hover:text-3xl duration-300">
           < Prev </button>
             <div class="h-12"></div>
-            <button href="#" class="text-x-mediumgrey hover:text-x-black text-2xl hover:text-3xl">
+            <button href="#" class="text-x-mediumgrey hover:text-x-black text-2xl hover:text-3xl duration-300">
               Next >
             </button>
       </div>
