@@ -1,13 +1,15 @@
 <script setup lang="ts">
+import SocialWrapper from './SocialWrapper.vue';
+
 </script>
 
 <template>
   <footer class="bg-x-black text-x-lightgrey py-10 px-12">
-    <!-- Top Section -->
+   
     <div class="container mx-auto flex justify-between items-center mb-10">
-      <!-- Logo -->
+      
       <img src="@/assets/images/logo/logo-join-sistem.png" alt="Join Sistem Logo">
-      <!-- Navigation Links -->
+      
       <nav class="space-x-6">
         <a href="/" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Home</a>
         <a href="blog" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Blog</a>
@@ -17,7 +19,7 @@
       </nav>
     </div>
 
-    <!-- Newsletter Subscription Section -->
+    
     <div class="bg-x-verydarkgrey py-10 mb-12">
       <div class="container mx-auto px-10 text-center flex justify-between">
         <div class="w-1/2">
@@ -44,33 +46,7 @@
           <a href="mailto:Hello@finsweet.com" class="hover:text-x-yellow">Hello@finsweet.com</a> | 020 7993 2905
         </div>
       </div>
-      <div class="flex justify-center space-x-6 mt-4">
-        <a href="#" class="inline-block w-6 h-6">
-          <i class="block w-full h-full bg-no-repeat bg-center bg-contain"
-            style="background-image: url('/src/assets/images/misc/icons/facebook.png');">
-          </i>
-        </a>
-
-        <a href="#" class="inline-block w-6 h-6">
-          <i class="block w-full h-full bg-no-repeat bg-center bg-contain"
-            style="background-image: url('/src/assets/images/misc/icons/twitter.png');">
-          </i>
-        </a>
-
-        <a href="https://www.instagram.com/adkurnwn" class="inline-block w-6 h-6">
-          <i class="block w-full h-full bg-no-repeat bg-center bg-contain"
-            style="background-image: url('/src/assets/images/misc/icons/instagram.png');">
-          </i>
-        </a>
-
-        <a href="#" class="inline-block w-6 h-6">
-          <i class="block w-full h-full bg-no-repeat bg-center bg-contain"
-            style="background-image: url('/src/assets/images/misc/icons/linkedin.png');">
-          </i>
-        </a>
-      </div>
-      
-
+      <SocialWrapper/>
     </div>
   </footer>
 </template>

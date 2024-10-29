@@ -55,9 +55,7 @@ import MainLayout from '@/layouts/MainLayout.vue'
         </div>
       </div>
 
-      <!-- Contact Form -->
       <form class="w-full flex flex-col gap-y-4">
-        <!-- Full Name Field -->
         <div class="flex justify-end pt-5 self-stretch flex-col">
           <div class="border-x-mediumgrey flex items-center border border-solid p-6 rounded-sm">
             <input type="text" id="fullName" name="fullName" placeholder="Full Name"
@@ -66,7 +64,6 @@ import MainLayout from '@/layouts/MainLayout.vue'
         </div>
 
 
-        <!-- Email Field -->
         <div class="flex justify-end pt-1 self-stretch flex-col">
           <div class="border-x-mediumgrey flex items-center border border-solid p-6 rounded-sm">
             <input type="email" id="email" name="email" placeholder="Your Email"
@@ -74,32 +71,35 @@ import MainLayout from '@/layouts/MainLayout.vue'
           </div>
         </div>
 
-        <!-- Province and City Fields -->
+
         <div class="text-x-verydarkgrey leading-7 flex flex-wrap justify-center pt-0.5 gap-x-4 gap-y-4">
-          <!-- Province Field -->
+       
           <div class="border-x-mediumgrey py-[22px] flex items-center border border-solid flex-grow px-6">
             <select id="province" name="province"
               class="text-x-verydarkgrey leading-7 bg-transparent outline-none flex-grow placeholder-slate-800"
               aria-placeholder="Province">
               <option value="" selected>Province</option>
               <option value="Jawa Tengah">Jawa Tengah</option>
+              <option value="Jawa Tengah">Jawa Barat</option>
+              <option value="Jawa Tengah">Jawa Timur</option>
             </select>
             <Vector class="h-[6.8px] w-[11px] flex-shrink-0 ml-4" />
           </div>
 
-          <!-- City Field -->
+  
           <div class="border-x-mediumgrey py-[22px] flex items-center border border-solid flex-grow px-6">
             <select id="city" name="city"
               class="text-x-verydarkgrey leading-7 bg-transparent outline-none flex-grow placeholder-slate-800"
               aria-placeholder="City">
               <option value="" selected>City</option>
               <option value="Klaten">Klaten</option>
+              <option value="Klaten">Surakarta</option>
             </select>
             <Vector class="h-[6.8px] w-[11px] flex-shrink-0 ml-4" />
           </div>
         </div>
 
-        <!-- Message Field -->
+    
         <div class="flex justify-end pt-1.5 self-stretch flex-col">
           <div class="pb-[91px] border-x-mediumgrey flex pt-6 items-start border border-solid px-6 rounded-sm">
             <textarea id="message" name="message" placeholder="Message"
@@ -110,7 +110,7 @@ import MainLayout from '@/layouts/MainLayout.vue'
         <!-- Submit Button -->
         <div class="flex justify-end pt-1 self-stretch flex-col">
           <button type="submit"
-            class="pr-[17px] flex justify-center pl-4 bg-x-blue hover:bg-x-yellow items-center py-4 ">
+            class="pr-[17px] flex justify-center pl-4 bg-x-blue hover:bg-x-yellow items-center py-4 transition duration-150 ease-in-out">
             <div class="text-x-verydarkgrey font-bold leading-8 text-2xl text-center">Send Message</div>
           </button>
         </div>

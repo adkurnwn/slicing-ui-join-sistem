@@ -2,8 +2,7 @@
 </script>
 
 <template>
-  <!-- choose category-->
-  <div class="w-full flex flex-col gap-y-12 items-center px-16 mb-16">
+  <div class="w-full flex flex-col gap-y-12 items-center mb-24">
     <div class="tracking-[-2px] leading-[48px] text-slate-800 font-sen font-bold text-4xl text-center">
       Choose A Catagory
     </div>
@@ -79,5 +78,4 @@
       </button>
     </div>
   </div>
-  <!-- choose category end-->
 </template>
