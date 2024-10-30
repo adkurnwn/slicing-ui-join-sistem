@@ -16,7 +16,7 @@
         </div>
         <div class="flex justify-center pt-4 items-end">
             <a href="#">
-                <button class="bg-x-blue hover:bg-x-yellow text-center text-white font-bold text-lg py-4 px-12 transition duration-150 ease-in-out">
+                <button class="bg-x-blue  hover:bg-x-yellow text-center text-white font-bold text-lg py-4 px-12 transition duration-150 ease-in-out">
                     Join Now
                 </button>
             </a>

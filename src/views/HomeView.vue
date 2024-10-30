@@ -15,7 +15,7 @@ import LogoContent from '@/components/LogoContent.vue';
       <div
         class="bg-[url('@/assets/images/misc/cover.png')] bg-cover bg-center bg-no-repeat flex flex-grow flex-col max-h-full max-w-full z-0">
         <div
-          class="pr-[556px] bg-[radial-gradient(transparent,_#00000099)] text-white flex pt-32 pl-20 pb-48 flex-grow flex-col gap-y-4 items-start">
+          class="pr-[556px] bg-[radial-gradient(transparent,_#00000099)] text-white flex pt-20 pl-20 pb-48 flex-grow flex-col gap-y-4 items-start">
           <div class="leading-5">
             <span><span>POSTED ON </span>
               <span class="font-black">STARTUP</span></span>
@@ -41,7 +41,7 @@ import LogoContent from '@/components/LogoContent.vue';
           </div>
           <div class="flex pt-8 items-end">
             <a href="#"
-              class="bg-x-blue text-center leading-6 font-bold text-lg py-4 px-12 text-white hover:bg-x-yellow transition duration-150 ease-in-out">
+              class="bg-x-blue  text-center leading-6 font-bold text-lg py-4 px-12 text-white hover:bg-x-yellow transition duration-150 ease-in-out">
               Read More >
             </a>
           </div>
@@ -86,7 +86,7 @@ import LogoContent from '@/components/LogoContent.vue';
               </div>
               <div class="z-[6] flex pt-4 items-end">
                 <a href="#"
-                  class="bg-x-blue text-center leading-6 font-bold text-lg py-4 px-12 text-white hover:bg-x-yellow transition duration-150 ease-in-out">
+                  class="bg-x-blue  text-center leading-6 font-bold text-lg py-4 px-12 text-white hover:bg-x-yellow transition duration-150 ease-in-out">
                   Read More >
                 </a>
               </div>
@@ -98,7 +98,7 @@ import LogoContent from '@/components/LogoContent.vue';
                 All Posts
               </div>
               <div class="">
-                <a href="#" class="font-inter leading-7 text-x-yellow">View All</a>
+                <a href="blog" class="font-inter leading-7 text-x-yellow">View All</a>
               </div>
 
             </div>
@@ -203,7 +203,8 @@ import LogoContent from '@/components/LogoContent.vue';
               </div>
             </div>
           </div>
-          <a href="#" class="font-bold text-x-yellow hover:text-x-blue transition duration-150 ease-in-out text-lg">
+          <a href="about"
+            class="font-bold text-x-yellow hover:text-x-blue  transition duration-150 ease-in-out text-lg">
             Read More >
           </a>
         </div>
@@ -233,10 +234,10 @@ import LogoContent from '@/components/LogoContent.vue';
               </p>
             </div>
             <div class="flex pt-4 self-stretch items-end">
-              <button href="#"
-                class="bg-x-blue hover:bg-x-yellow text-center text-white leading-5 font-bold text-base py-4 px-12 transition duration-150 ease-in-out">
+              <a href="#"
+                class="bg-x-blue hover:bg-x-yellow  text-center text-white leading-5 font-bold text-base py-4 px-12 transition duration-150 ease-in-out">
                 Discover our story >
-              </button>
+              </a>
             </div>
           </div>
         </div>

@@ -38,6 +38,7 @@ import SocialWrapper from './SocialWrapper.vue';
         </div>
       </div>
     </div>
+    
 
     <div class="container flex justify-between items-center">
       <div>

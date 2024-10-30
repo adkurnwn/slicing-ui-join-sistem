@@ -2,6 +2,7 @@
 import MainLayout from '@/layouts/MainLayout.vue'
 import Category from '@/components/Category.vue'
 import JoinContent from '@/components/JoinContent.vue'
+import AllPost from '@/components/AllPost.vue';
 </script>
 
 <template>
@@ -30,25 +31,18 @@ import JoinContent from '@/components/JoinContent.vue'
             proident.
           </p>
         </div>
-        <button href="#"
-          class="bg-x-blue hover:bg-x-yellow text-center text-white leading-6 font-bold text-lg py-4 px-12">
+        <a href="blog/post"
+          class="bg-x-blue hover:bg-x-yellow  duration-150 ease-in-out text-center text-white leading-6 font-bold text-lg py-4 px-12">
           Read More >
-        </button>
+      </a>
       </div>
 
       
-
-      <!-- tombol -->
-      <div class="flex justify-center py-8 pl-7 gap-x-4 font-bold items-center">
-        <button href="#" class="text-x-mediumgrey hover:text-x-black text-2xl hover:text-3xl duration-300">
-          < Prev </button>
-            <div class="h-12"></div>
-            <button href="#" class="text-x-mediumgrey hover:text-x-black text-2xl hover:text-3xl duration-300">
-              Next >
-            </button>
-      </div>
     </div>
+    <AllPost />
+    <div class="px-16 w-full">
     <Category />
     <JoinContent />
+    </div>
   </MainLayout>
 </template>
