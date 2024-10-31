@@ -2,7 +2,7 @@
 
 </script>
 <template>
-  <nav class="sticky top-0 z-10 px-12 w-full h-[80px] bg-x-black flex items-center justify-between">
+  <nav class="sticky top-0 z-20 px-12 w-full h-[80px] bg-x-black flex items-center justify-between">
     <img src="@/assets/images/logo/logo-join-sistem.png" alt="Join Sistem Logo">
     <ul class="flex gap-4">
       <li>

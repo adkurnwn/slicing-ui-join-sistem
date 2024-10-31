@@ -54,7 +54,7 @@ import LogoContent from '@/components/LogoContent.vue';
       <div class="w-full flex flex-col mb-24">
         <div class="min-[1272px]:flex-nowrap flex flex-wrap justify-center flex-grow gap-x-8 gap-y-8">
           <div class="flex flex-col gap-y-8 items-start">
-            <div class="tracking-[-2px] leading-[48px] text-slate-800 font-bold text-4xl">
+            <div class="tracking-[-2px] leading-[48px] text-x-black font-bold text-4xl">
               Featured Post
             </div>
             <div
@@ -104,45 +104,45 @@ import LogoContent from '@/components/LogoContent.vue';
             </div>
             <div
               class="flex hover:bg-x-lightyellow justify-center flex-grow self-stretch flex-col items-start pl-6 pr-20">
-              <div class="text-gray-600 text-xs mb-1">
+              <div class="text-x-darkgrey text-xs mb-1">
                 <span class="text-x-yellow font-medium">John Doe</span>
                 <span> | </span>
                 <span>Aug 23, 2021</span>
               </div>
-              <div class="text-2xl font-bold text-gray-900">
+              <div class="text-2xl font-bold text-x-black">
                 8 Figma design systems that you can download for free today.
               </div>
             </div>
             <div
               class="flex hover:bg-x-lightyellow justify-center flex-grow self-stretch flex-col items-start pl-6 pr-20">
-              <div class="text-gray-600 text-xs mb-1">
+              <div class="text-x-darkgrey text-xs mb-1">
                 <span class="text-x-yellow font-medium">John Doe</span>
                 <span> | </span>
                 <span>Aug 23, 2021</span>
               </div>
-              <div class="text-2xl font-bold text-gray-900">
+              <div class="text-2xl font-bold text-x-black">
                 8 Figma design systems that you can download for free today.
               </div>
             </div>
             <div
               class="flex hover:bg-x-lightyellow justify-center flex-grow self-stretch flex-col items-start pl-6 pr-20">
-              <div class="text-gray-600 text-xs mb-1">
+              <div class=" text-x-darkgrey text-xs mb-1">
                 <span class="text-x-yellow font-medium">John Doe</span>
                 <span> | </span>
                 <span>Aug 23, 2021</span>
               </div>
-              <div class="text-2xl font-bold text-gray-900">
+              <div class="text-2xl font-bold text-x-black">
                 8 Figma design systems that you can download for free today.
               </div>
             </div>
             <div
               class="flex hover:bg-x-lightyellow justify-center flex-grow self-stretch flex-col items-start pl-6 pr-20">
-              <div class="text-gray-600 text-xs mb-1">
+              <div class="text-x-darkgrey text-xs mb-1">
                 <span class="text-x-yellow font-medium">John Doe</span>
                 <span> | </span>
                 <span>Aug 23, 2021</span>
               </div>
-              <div class="text-2xl font-bold text-gray-900">
+              <div class="text-2xl font-bold text-x-black">
                 8 Figma design systems that you can download for free today.
               </div>
             </div>
@@ -161,12 +161,12 @@ import LogoContent from '@/components/LogoContent.vue';
           <div
             class="min-[1270px]:flex-nowrap font-inter flex flex-wrap justify-between self-stretch gap-x-16 gap-y-16 items-start">
             <div class="w-1/2 flex-shrink-0 flex flex-col gap-y-4 items-start">
-              <div class="tracking-[3px] text-slate-800 uppercase font-semibold leading-5">
+              <div class="tracking-[3px]  text-x-black uppercase font-semibold leading-5">
                 ABOUT US
               </div>
               <div class="[max-width:515px] flex pt-2 pr-5 self-stretch items-end">
                 <div
-                  class="tracking-[-2px] leading-[48px] text-slate-800 font-sen font-bold text-2xl items-end flex flex-grow">
+                  class="tracking-[-2px] leading-[48px] text-x-black font-sen font-bold text-2xl items-end flex flex-grow">
                   <p>
                     We are a community of content writers who share their learnings
                   </p>
@@ -181,12 +181,12 @@ import LogoContent from '@/components/LogoContent.vue';
             </div>
             <div class="w-1/2 flex flex-col items-center">
               <div class="w-[516px] flex flex-col gap-y-4 items-start">
-                <div class="text-slate-800 tracking-[3px] uppercase leading-5 font-semibold">
+                <div class="text-x-black tracking-[3px] uppercase leading-5 font-semibold">
                   Our mision
                 </div>
                 <div class="[max-width:516px] flex pt-2 pr-9 self-stretch items-end">
                   <div
-                    class="tracking-[-1px] text-slate-800 text-2xl font-sen font-bold leading-10 items-end flex flex-grow">
+                    class="tracking-[-1px] text-x-black text-2xl font-sen font-bold leading-10 items-end flex flex-grow">
                     <p>
                       Creating valuable content for creatives all around the world
                     </p>

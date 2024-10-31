@@ -36,7 +36,7 @@ const router = createRouter({
       component: AboutView,
     },
     {
-      path: '/blog/post',
+      path: '/post',
       name: 'Blog Post',
       component: PostView,
     },

@@ -31,7 +31,7 @@ import AllPost from '@/components/AllPost.vue';
             proident.
           </p>
         </div>
-        <a href="blog/post"
+        <a href="post"
           class="bg-x-blue hover:bg-x-yellow  duration-150 ease-in-out text-center text-white leading-6 font-bold text-lg py-4 px-12">
           Read More >
       </a>
