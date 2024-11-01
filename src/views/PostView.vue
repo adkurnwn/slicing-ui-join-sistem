@@ -12,7 +12,7 @@ import MainLayout from '@/layouts/MainLayout.vue';
                 <div class="flex relative justify-end pl-16 items-center">
                     <div
                         class="top-[calc(50%_+_-24px_+_-3px)] flex-shrink-0 flex absolute left-0 h-12 w-12 flex-col items-center">
-                        <img src="@/assets/images/misc/Jonathan.png" class="flex-shrink-0 h-12 w-12" />
+                        <img src="@/assets/images/misc/jonathan.png" class="flex-shrink-0 h-12 w-12" />
                     </div>
                     <div>
                         <a href="author" class="tracking-[-1px] text-[28px]  font-bold leading-10 text-yellow-300">
