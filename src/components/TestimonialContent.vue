@@ -40,7 +40,7 @@
                             <div class="min-[1270px]:flex-nowrap flex flex-wrap gap-x-36 gap-y-6 items-start">
                                 <div class="flex justify-center gap-x-4 items-start">
                                     <div class="flex-shrink-0 flex h-12 w-12 flex-col items-center">
-                                        <img src="@/assets/images/misc/Jonathan.png" class="flex-shrink-0 h-12 w-12" />
+                                        <img src="@/assets/images/misc/jonathan.png" class="flex-shrink-0 h-12 w-12" />
                                     </div>
                                     <div class="flex flex-col items-center text-base">
                                         <div>
