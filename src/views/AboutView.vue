@@ -25,7 +25,7 @@ import SocialWrapper from '@/components/SocialWrapper.vue';
             ea commodo consequat.
           </div>
         </div>
-        <img src="@/assets/images/misc/overview.png" />
+        <img src="@/assets/images/misc/Overview.png" />
         <div class="absolute bottom-0 left-[7%]">
           <div class="h-[120px] w-[570px] bg-x-blue flex justify-between px-12 items-center">
             <div>
