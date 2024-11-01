@@ -8,7 +8,7 @@
         </div>
         <div class="flex justify-between">
             <div class="flex flex-col gap-y-4 w-1/3">
-                <img src="@/assets/images/posts/post1.png" alt="Design tips article featured image"
+                <img src="@/assets/images/posts/Post1.png" alt="Design tips article featured image"
                     class="object-cover h-[246px] w-[312px]" />
                 <div class="flex flex-col justify-center">
                     <div class="font-medium leading-5 text-sm">
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="flex flex-col gap-y-4 w-1/3">
-                <img src="@/assets/images/posts/post2.png" alt="Design tips article featured image"
+                <img src="@/assets/images/posts/Post2.png" alt="Design tips article featured image"
                     class="object-cover h-[246px] w-[312px]" />
                 <div class="flex flex-col justify-center">
                     <div class="font-medium leading-5 text-sm">
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="flex flex-col gap-y-4 w-1/3">
-                <img src="@/assets/images/posts/post3.png" alt="Design tips article featured image"
+                <img src="@/assets/images/posts/Post3.png" alt="Design tips article featured image"
                     class="object-cover h-[246px] w-[312px]" />
                 <div class="flex flex-col justify-center">
                     <div class="font-medium leading-5 text-sm">

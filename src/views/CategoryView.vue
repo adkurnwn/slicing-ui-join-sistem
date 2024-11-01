@@ -30,7 +30,7 @@ import MainLayout from '@/layouts/MainLayout.vue'
                         <div class="flex flex-col grow max-md:mt-8 max-md:max-w-full gap-y-6">
                             <a href="post"
                                 class="flex max-md:flex-col hover:bg-x-lightyellow duration-150 ease-in-out">
-                                <img src="@/assets/images/posts/post1.png" alt="Design tips article featured image"
+                                <img src="@/assets/images/posts/Post1.png" alt="Design tips article featured image"
                                     class="object-cover h-[249px] w-[235px]" />
                                 <div class="flex flex-col ml-5 w-full max-md:ml-0 max-md:max-w-full justify-center ">
                                     <span
@@ -48,7 +48,7 @@ import MainLayout from '@/layouts/MainLayout.vue'
 
                             <a href="post"
                                 class="flex max-md:flex-col hover:bg-x-lightyellow duration-150 ease-in-out">
-                                <img src="@/assets/images/posts/post1.png" alt="Design tips article featured image"
+                                <img src="@/assets/images/posts/Post1.png" alt="Design tips article featured image"
                                     class="object-cover h-[249px] w-[235px]" />
                                 <div class="flex flex-col ml-5 w-full max-md:ml-0 max-md:max-w-full justify-center ">
                                     <span
@@ -66,7 +66,7 @@ import MainLayout from '@/layouts/MainLayout.vue'
 
                             <a href="post"
                                 class="flex max-md:flex-col hover:bg-x-lightyellow duration-150 ease-in-out">
-                                <img src="@/assets/images/posts/post1.png" alt="Design tips article featured image"
+                                <img src="@/assets/images/posts/Post1.png" alt="Design tips article featured image"
                                     class="object-cover h-[249px] w-[235px]" />
                                 <div class="flex flex-col ml-5 w-full max-md:ml-0 max-md:max-w-full justify-center ">
                                     <span
@@ -84,7 +84,7 @@ import MainLayout from '@/layouts/MainLayout.vue'
 
                             <a href="post"
                                 class="flex max-md:flex-col hover:bg-x-lightyellow duration-150 ease-in-out">
-                                <img src="@/assets/images/posts/post1.png" alt="Design tips article featured image"
+                                <img src="@/assets/images/posts/Post1.png" alt="Design tips article featured image"
                                     class="object-cover h-[249px] w-[235px]" />
                                 <div class="flex flex-col ml-5 w-full max-md:ml-0 max-md:max-w-full justify-center ">
                                     <span
@@ -102,7 +102,7 @@ import MainLayout from '@/layouts/MainLayout.vue'
 
                             <a href="post"
                                 class="flex max-md:flex-col hover:bg-x-lightyellow duration-150 ease-in-out">
-                                <img src="@/assets/images/posts/post1.png" alt="Design tips article featured image"
+                                <img src="@/assets/images/posts/Post1.png" alt="Design tips article featured image"
                                     class="object-cover h-[249px] w-[235px]" />
                                 <div class="flex flex-col ml-5 w-full max-md:ml-0 max-md:max-w-full justify-center ">
                                     <span

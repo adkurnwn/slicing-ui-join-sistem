@@ -20,7 +20,7 @@ import SocialWrapper from './SocialWrapper.vue';
             <div class="flex flex-col w-full max-md:ml-0 max-md:w-full">
                 <div class="flex flex-col grow max-md:mt-8 max-md:max-w-full">
                     <a href="post" class="flex max-md:flex-col hover:bg-x-lightyellow duration-150 ease-in-out">
-                        <img src="@/assets/images/posts/post1.png" alt="Design tips article featured image"
+                        <img src="@/assets/images/posts/Post1.png" alt="Design tips article featured image"
                             class="object-contain w-full aspect-[1.54] max-md:max-w-full" />
                         <div class="flex flex-col ml-5 w-full max-md:ml-0 max-md:max-w-full justify-center gap-y-2">
                             <span
@@ -37,7 +37,7 @@ import SocialWrapper from './SocialWrapper.vue';
                         </div>
                     </a>
                     <a href="post" class="flex mt-16 max-md:flex-col hover:bg-x-lightyellow duration-150 ease-in-out">
-                        <img src="@/assets/images/posts/post2.png"
+                        <img src="@/assets/images/posts/Post2.png"
                             alt="Web design clients rapport article featured image"
                             class="object-contain w-full aspect-[1.54] max-md:max-w-full" />
                         <div class="flex flex-col ml-5 w-full max-md:ml-0 max-md:max-w-full justify-center gap-y-2">
@@ -55,7 +55,7 @@ import SocialWrapper from './SocialWrapper.vue';
                         </div>
                     </a>
                     <a href="post" class="flex mt-16 max-md:flex-col hover:bg-x-lightyellow duration-150 ease-in-out">
-                        <img src="@/assets/images/posts/post3.png" alt="Logo design trends article featured image"
+                        <img src="@/assets/images/posts/Post3.png" alt="Logo design trends article featured image"
                             class="object-contain w-full aspect-[1.54] max-md:max-w-full" />
                         <div class="flex flex-col ml-5 w-full max-md:ml-0 max-md:max-w-full justify-center gap-y-2">
                             <span
@@ -72,7 +72,7 @@ import SocialWrapper from './SocialWrapper.vue';
                         </div>
                     </a>
                     <a href="post" class="flex mt-16 max-md:flex-col hover:bg-x-lightyellow duration-150 ease-in-out">
-                        <img src="@/assets/images/posts/post4.png" alt="Figma design systems article featured image"
+                        <img src="@/assets/images/posts/Post4.png" alt="Figma design systems article featured image"
                             class="object-contain w-full aspect-[1.54] max-md:max-w-full" />
                         <div class="flex flex-col ml-5 w-full max-md:ml-0 max-md:max-w-full justify-center gap-y-2">
                             <span
@@ -89,7 +89,7 @@ import SocialWrapper from './SocialWrapper.vue';
                         </div>
                     </a>
                     <a href="post" class="flex mt-16 max-md:flex-col hover:bg-x-lightyellow duration-150 ease-in-out">
-                        <img src="@/assets/images/posts/post1.png" alt="Font sizes UI design article featured image"
+                        <img src="@/assets/images/posts/Post1.png" alt="Font sizes UI design article featured image"
                             class="object-contain w-full aspect-[1.54] max-md:max-w-full" />
                         <div class="flex flex-col ml-5 w-full max-md:ml-0 max-md:max-w-full justify-center gap-y-2">
                             <span
