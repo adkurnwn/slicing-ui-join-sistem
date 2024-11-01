@@ -6,6 +6,7 @@ import BlogView from '@/views/BlogView.vue'
 import AboutView from '@/views/AboutView.vue'
 import PostView from '@/views/PostView.vue'
 import CategoryView from '@/views/CategoryView.vue'
+import AuthorView from '@/views/AuthorView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -44,6 +45,11 @@ const router = createRouter({
       path: '/Category',
       name: 'Category',
       component: CategoryView,
+    },
+    {
+      path: '/author',
+      name: 'author',
+      component: AuthorView,
     },
   ],
 })
